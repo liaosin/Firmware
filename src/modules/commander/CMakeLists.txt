@@ -53,6 +53,7 @@ px4_add_module(
 		arm_auth.cpp
 		health_flag_helper.cpp
 	DEPENDS
+		circuit_breaker
 		df_driver_framework
 		git_ecl
 		ecl_geo
